@@ -1,4 +1,9 @@
 # Developer Note
+
+## Markdown help
+[Writing on GitHub](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks)  
+[Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 ## Auto Layout
 ```swift
 let guide = view.safeAreaLayoutGuide

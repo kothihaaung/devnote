@@ -14,3 +14,15 @@ closeButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
 closeButton.topAnchor.constraint(equalTo: guide.topAnchor, constant: 20).isActive = true
 closeButton.trailingAnchor.constraint(equalTo: guide.trailingAnchor, constant: -20).isActive = true
 ```
+
+## Image size in pixel
+```swift
+To get size in pixels of UIImageView:
+
+let widthInPixels = imageView.frame.width * UIScreen.mainScreen().scale
+let heightInPixels = imageView.frame.height * UIScreen.mainScreen().scale
+To get size in pixels of UIImage:
+
+let widthInPixels = image.size.width * image.scale
+let heightInPixels = image.size.height * image.scale
+```
